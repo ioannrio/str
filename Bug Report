@@ -120,3 +120,17 @@ Actual result:
 No warning appears and employee can't be added. In network only info with status code 405, and Dependents - null
 
 
+
+Case 7: 
+Steps to reproduce:
+1. Do Precondition
+2. Wait for a while until expiration login time ends cuz of inactivity
+3. Refresh page
+4. Copy URL
+5. Paste in a new tab copied URL
+
+Expected result:
+User get logged out cuz of inactivity, or nothing happens. After pasting in new tab, then user can loggin again
+
+Actual result:
+No user data is available and no "Log out" option is available, new tab didn't changed a thing
