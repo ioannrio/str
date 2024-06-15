@@ -10,16 +10,22 @@ Precondition:
 3. Into Password input type "^9!jT@y#)SOP"
 4. Press "Log In" button
 
+
 Case 1: 
 Steps to reproduce:
 1. Do Precondition
-2. Wait for a while until expiration login time ends cuz of inactivity
+2. Press "Add Employee"
+3. Into "First Name:" input type "John"
+4. Into "Last Name:" input type "Surf"
+5. Into "Dependents:" input type "33"
+6. Press "Add" button
+
 
 Expected result: 
-User get logged out cuz of inactivity, or nothing happens
+Employee can be added
 
 Actual result:
-No user data is available and no "Log out" option is available
+Employee can not be added if Dependents are higher then INT "33". In descriptions is no information about it.
 
 
 
