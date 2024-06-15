@@ -101,3 +101,22 @@ Note: If it is not allowed, theres no info provided. And Warning needs to be add
 
 
 
+
+Case 6:
+Steps to reproduce:
+1. Do Precondition
+2. Wait for a while until expiration login time ends cuz of inactivity
+3. Press "Add Employee"
+4. Into "First Name:" input type "Ivan"
+5. Into "Last Name:" input type "Surf"
+6. Into "Dependents:" input type "ioweruwoir"
+7. Press "Add" button
+
+
+Expected result:
+Warning should be appeared
+
+Actual result:
+No warning appears and employee can't be added. In network only info with status code 405, and Dependents - null
+
+
