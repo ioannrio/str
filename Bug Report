@@ -60,6 +60,8 @@ Warning should be appeared
 Actual result:
 No warning appears and employee can't be added. In log only info with status code 401
 
+Note: Same with edit or delete employee
+
 
 
 Case 4:
