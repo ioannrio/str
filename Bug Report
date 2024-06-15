@@ -168,3 +168,26 @@ Warning should be appeared
 
 Actual result:
 No warning appears and employee can't be added. In network only info with status code 405
+
+
+
+Case 10:
+Steps to reproduce:
+1. Do Precondition
+2. Press "Add Employee"
+3. Into "First Name:" input type "John"
+4. Into "Last Name:" input type "Surf"
+5. Into "Dependents:" input type "-8"
+6. Press "Add" button
+
+
+Expected result:
+Warning should be appeared
+
+Actual result:
+No warning appears and employee can't be added. In network only info with status code 400, and description that allowed characteers are from 0 to 32
+
+
+
+
+NOTE: Not obvious from requirements how the "Benefits Cost" anf "Net Pay" are calculated, is needed more info
