@@ -3,6 +3,7 @@ Type: Bug
 Severity: High
 Priority: High
 Status: To Do
+Note: All cases begins as from the start, not related one with other
 
 Precondition:
 1. Go to URL: https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login
@@ -22,10 +23,10 @@ Steps to reproduce:
 
 
 Expected result: 
-Employee can be added
+Warning should be appeared
 
 Actual result:
-Employee can not be added if Dependents are higher then INT "33". In descriptions is no information about it.
+No warning appears. Employee can not be added if Dependents are higher then INT "33". In descriptions is no information about it. Only in Logs
 
 
 
@@ -33,6 +34,7 @@ Case 2:
 Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
+3. Refresh page
 
 Expected result:
 User get logged out cuz of inactivity, or nothing happens
@@ -44,6 +46,21 @@ No user data is available and no "Log out" option is available
 
 Case 3:
 Steps to reproduce:
+1. Do Precondition
+2. Wait for a while until expiration login time ends cuz of inactivity
+3. Press "Add Employee"
+4. Into "First Name:" input type "John"
+5. Into "Last Name:" input type "Surf"
+6. Into "Dependents:" input type "1"
+7. Press "Add" button
+
+Expected result:
+Warning should be appeared
+
+Actual result:
+No warning appears and employee can't be added. In log only info with status code 401
+
+
 
 
 
