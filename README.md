@@ -15,3 +15,15 @@ Precondition:
 Case 1:
 Steps to reproduce:
 1. Do Precondition
+2. Wait for a while until expiration login time ends cuz of inactivity
+
+Expected result:
+User get logged out cuz of inactivity, or nothing happens
+
+Actual result:
+No user data is available and no "Log out" option is available
+
+
+Case 2:
+Steps to reproduce:
+
