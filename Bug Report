@@ -134,3 +134,22 @@ User get logged out cuz of inactivity, or nothing happens. After pasting in new 
 
 Actual result:
 No user data is available and no "Log out" option is available, new tab didn't changed a thing, only 403 Forbidden appears
+
+
+
+Case 8:
+Steps to reproduce:
+1. Do Precondition
+2. Wait for a while until expiration login time ends cuz of inactivity
+3. Press "Add Employee"
+4. Into "First Name:" input type "Kyiv is the capital and most populous city of Ukraine. It is in north-central Ukraine along the Dnieper River. As of 1 January 2022, its population was 2,952,301 making Kyiv the seventh-most populous city in Europe. Kyiv is an important industrial, scientific, educational, and cultural center in Eastern Europe"
+5. Into "Last Name:" input type "Kyiv is the capital and most populous city of Ukraine. It is in north-central Ukraine along the Dnieper River. As of 1 January 2022, its population was 2,952,301 making Kyiv the seventh-most populous city in Europe. Kyiv is an important industrial, scientific, educational, and cultural center in Eastern Europe"
+6. Into "Dependents:" input type "3"
+7. Press "Add" button
+
+
+Expected result:
+Warning should be appeared
+
+Actual result:
+No warning appears and employee can't be added. In network only info with status code 400, and description that max length can be 50 characters
