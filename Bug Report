@@ -133,4 +133,4 @@ Expected result:
 User get logged out cuz of inactivity, or nothing happens. After pasting in new tab, then user can loggin again
 
 Actual result:
-No user data is available and no "Log out" option is available, new tab didn't changed a thing
+No user data is available and no "Log out" option is available, new tab didn't changed a thing, only 403 Forbidden appears
