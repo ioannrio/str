@@ -31,5 +31,19 @@ Employee can not be added if Dependents are higher then INT "33". In description
 
 Case 2: 
 Steps to reproduce:
+1. Do Precondition
+2. Wait for a while until expiration login time ends cuz of inactivity
+
+Expected result:
+User get logged out cuz of inactivity, or nothing happens
+
+Actual result:
+No user data is available and no "Log out" option is available
+
+
+
+Case 3:
+Steps to reproduce:
+
 
 
