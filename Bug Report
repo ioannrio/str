@@ -78,4 +78,24 @@ For phone and pad is not friendly design
 Case 5:
 Steps to reproduce:
 1. Do Precondition
+2. Wait for a while until expiration login time ends cuz of inactivity
+3. Press "Add Employee"
+4. Into "First Name:" input type "John"
+5. Into "Last Name:" input type "Surf"
+6. Into "Dependents:" input type "1"
+7. Press "Add" button
+8. Press Edit icon near to created employee
+9. Into "Dependents:" input type "0.7"
+10. Press "Update" button
+
+
+Expected result:
+Dependents will be 0.7 or warning appears that it's not possible
+
+Actual result:
+Dependents if is updated to 0.7 is viewed as 0. In network as well
+
+Note: If it is not allowed, theres no info provided. And Warning needs to be added
+
+
 
