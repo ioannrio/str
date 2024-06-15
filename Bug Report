@@ -62,5 +62,20 @@ No warning appears and employee can't be added. In log only info with status cod
 
 
 
+Case 4:
+Steps to reproduce:
+1. Do Precondition
+2. Set screen view to mobile one
 
+Expected result:
+Screen is set to be mobile browser friendly
+
+Actual result:
+For phone and pad is not friendly design
+
+
+
+Case 5:
+Steps to reproduce:
+1. Do Precondition
 
