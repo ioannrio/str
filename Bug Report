@@ -153,3 +153,18 @@ Warning should be appeared
 
 Actual result:
 No warning appears and employee can't be added. In network only info with status code 400, and description that max length can be 50 characters
+
+
+
+Case 9:
+Steps to reproduce:
+1. Do Precondition
+2. Press "Add Employee"
+3. Press "Add" button
+
+
+Expected result:
+Warning should be appeared
+
+Actual result:
+No warning appears and employee can't be added. In network only info with status code 405
