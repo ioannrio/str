@@ -28,6 +28,8 @@ Warning should be appeared
 #### Actual result:
 No warning appears. Employee can not be added if Dependents are higher then INT "33". In descriptions is no information about it. Only in Logs
 
+<img width="1435" alt="Screenshot 2024-06-15 at 12 56 33" src="https://github.com/ioannrio/str/assets/15255256/aac6f081-810a-48a5-87cf-f3c1bcff3a1c">
+
 
 
 ### Case 2: 
@@ -42,6 +44,7 @@ User get logged out cuz of inactivity, or nothing happens
 #### Actual result:
 No user data is available and no "Log out" option is available
 
+<img width="1434" alt="Screenshot 2024-06-15 at 13 09 12" src="https://github.com/ioannrio/str/assets/15255256/4018ecbc-1067-41aa-a81d-b21608be1c78">
 
 
 ### Case 3:
@@ -75,6 +78,8 @@ Screen is set to be mobile browser friendly
 #### Actual result:
 For phone and pad is not friendly design
 
+<img width="1434" alt="Screenshot 2024-06-15 at 13 10 05" src="https://github.com/ioannrio/str/assets/15255256/d91ff6dc-4411-4e2e-92da-146ff58c0e7e">
+
 
 
 ### Case 5:
@@ -96,6 +101,8 @@ Dependents will be 0.7 or warning appears that it's not possible
 
 #### Actual result:
 Dependents if is updated to 0.7 is viewed as 0. In network as well
+
+<img width="1436" alt="Screenshot 2024-06-15 at 17 18 34" src="https://github.com/ioannrio/str/assets/15255256/564eb56b-560d-41ed-9f2b-ae62e98f4249">
 
 #### Note: If it is not allowed, theres no info provided. And Warning needs to be added
 
