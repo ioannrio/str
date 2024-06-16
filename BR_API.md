@@ -53,3 +53,27 @@ While updating Employee in postman with update collection creates new user. If s
 
 <img width="1176" alt="Screenshot 2024-06-16 at 13 47 44" src="https://github.com/ioannrio/str/assets/15255256/72d34328-6b84-4a84-98b5-f10bce994e9e">
 <img width="1440" alt="Screenshot 2024-06-16 at 13 47 35" src="https://github.com/ioannrio/str/assets/15255256/19f05cf0-5f67-4190-8748-8bbe30c24b63">
+
+
+### Case 3:
+#### Steps to reproduce:
+1. Do Precondition
+2. Go to postmans collection "Add Employee"
+3. Press "Try/Send"
+4. Copy id
+5. Go back to app
+6. Insure that new Employee is created
+7. Copy this Employees ID
+8. Go to postmans collection "Add Employee"
+9. Paste same id in the request body
+10. Go back to app
+11. Look for Employees
+
+
+#### Expected result: 
+Warning will appear that id has been taken already
+
+#### Actual result:
+Now is possible to send request with the same id while adding new Employee. But newly created Employee has new id instead, this brings some confusion
+
+
