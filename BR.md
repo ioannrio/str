@@ -1,9 +1,12 @@
 # Bug Report test challenge
 Type: Bug
+
 Severity: High
+
 Priority: High
 
 Status: To Do
+
 Note: All cases begins as from the start, not related one with other
 
 ## Precondition:
@@ -24,10 +27,10 @@ Steps to reproduce:
 6. Press "Add" button
 
 
-Expected result: 
+#### Expected result: 
 Warning should be appeared
 
-Actual result:
+#### Actual result:
 No warning appears. Employee can not be added if Dependents are higher then INT "33". In descriptions is no information about it. Only in Logs
 
 
