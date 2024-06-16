@@ -188,6 +188,7 @@ Warning should be appeared
 No warning appears and employee can't be added. In network only info with status code 400, and description that allowed characteers are from 0 to 32
 
 <img width="1436" alt="Screenshot 2024-06-15 at 20 44 26" src="https://github.com/ioannrio/str/assets/15255256/a1148269-0d3d-4180-b534-242dab2b55c9">
+<img width="1440" alt="Screenshot 2024-06-15 at 20 44 16" src="https://github.com/ioannrio/str/assets/15255256/346398cd-f566-49d5-ace9-e9109392e3ff">
 
 #### NOTE: Not obvious from requirements how the "Benefits Cost" anf "Net Pay" are calculated, is needed more info
 
