@@ -119,6 +119,7 @@ Warning should be appeared
 #### Actual result:
 No warning appears and employee can't be added. In network only info with status code 405, and Dependents - null
 
+<img width="1435" alt="Screenshot 2024-06-15 at 17 33 26" src="https://github.com/ioannrio/str/assets/15255256/22038cc9-bbb2-46f6-9654-e469b561ffe0">
 
 
 ### Case 7: 
@@ -169,6 +170,7 @@ Warning should be appeared
 #### Actual result:
 No warning appears and employee can't be added. In network only info with status code 405
 
+<img width="1434" alt="Screenshot 2024-06-15 at 20 39 52" src="https://github.com/ioannrio/str/assets/15255256/6f34ca09-b46a-465d-9cfd-5dc7f49cfc64">
 
 
 ### Case 10:
