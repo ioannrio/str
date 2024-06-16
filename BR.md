@@ -1,13 +1,9 @@
 # Bug Report test challenge
-Type: Bug
-
-Severity: High
-
-Priority: High
-
-Status: To Do
-
-Note: All cases begins as from the start, not related one with other
+#### Type: Bug
+#### Severity: High
+#### Priority: High
+#### Status: To Do
+#### Note: All cases begins as from the start, not related one with other
 
 ## Precondition:
 1. Go to URL: https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login
@@ -35,21 +31,21 @@ No warning appears. Employee can not be added if Dependents are higher then INT 
 
 
 
-Case 2: 
+### Case 2: 
 Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
 3. Refresh page
 
-Expected result:
+#### Expected result:
 User get logged out cuz of inactivity, or nothing happens
 
-Actual result:
+#### Actual result:
 No user data is available and no "Log out" option is available
 
 
 
-Case 3:
+### Case 3:
 Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
@@ -59,30 +55,30 @@ Steps to reproduce:
 6. Into "Dependents:" input type "1"
 7. Press "Add" button
 
-Expected result:
+#### Expected result:
 Warning should be appeared
 
-Actual result:
+#### Actual result:
 No warning appears and employee can't be added. In log only info with status code 401
 
 Note: Same with edit or delete employee
 
 
 
-Case 4:
+### Case 4:
 Steps to reproduce:
 1. Do Precondition
 2. Set screen view to mobile one
 
-Expected result:
+#### Expected result:
 Screen is set to be mobile browser friendly
 
-Actual result:
+#### Actual result:
 For phone and pad is not friendly design
 
 
 
-Case 5:
+### Case 5:
 Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
@@ -96,10 +92,10 @@ Steps to reproduce:
 10. Press "Update" button
 
 
-Expected result:
+#### Expected result:
 Dependents will be 0.7 or warning appears that it's not possible
 
-Actual result:
+#### Actual result:
 Dependents if is updated to 0.7 is viewed as 0. In network as well
 
 Note: If it is not allowed, theres no info provided. And Warning needs to be added
@@ -107,7 +103,7 @@ Note: If it is not allowed, theres no info provided. And Warning needs to be add
 
 
 
-Case 6:
+### Case 6:
 Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
@@ -118,15 +114,15 @@ Steps to reproduce:
 7. Press "Add" button
 
 
-Expected result:
+#### Expected result:
 Warning should be appeared
 
-Actual result:
+#### Actual result:
 No warning appears and employee can't be added. In network only info with status code 405, and Dependents - null
 
 
 
-Case 7: 
+### Case 7: 
 Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
@@ -134,15 +130,15 @@ Steps to reproduce:
 4. Copy URL
 5. Paste in a new tab copied URL
 
-Expected result:
+#### Expected result:
 User get logged out cuz of inactivity, or nothing happens. After pasting in new tab, then user can loggin again
 
-Actual result:
+#### Actual result:
 No user data is available and no "Log out" option is available, new tab didn't changed a thing, only 403 Forbidden appears
 
 
 
-Case 8:
+### Case 8:
 Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
@@ -153,30 +149,30 @@ Steps to reproduce:
 7. Press "Add" button
 
 
-Expected result:
+#### Expected result:
 Warning should be appeared
 
-Actual result:
+#### Actual result:
 No warning appears and employee can't be added. In network only info with status code 400, and description that max length can be 50 characters
 
 
 
-Case 9:
+### Case 9:
 Steps to reproduce:
 1. Do Precondition
 2. Press "Add Employee"
 3. Press "Add" button
 
 
-Expected result:
+#### Expected result:
 Warning should be appeared
 
-Actual result:
+#### Actual result:
 No warning appears and employee can't be added. In network only info with status code 405
 
 
 
-Case 10:
+### Case 10:
 Steps to reproduce:
 1. Do Precondition
 2. Press "Add Employee"
@@ -186,10 +182,10 @@ Steps to reproduce:
 6. Press "Add" button
 
 
-Expected result:
+#### Expected result:
 Warning should be appeared
 
-Actual result:
+#### Actual result:
 No warning appears and employee can't be added. In network only info with status code 400, and description that allowed characteers are from 0 to 32
 
 
