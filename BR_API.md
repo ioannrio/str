@@ -77,3 +77,23 @@ Warning will appear that id has been taken already
 Now is possible to send request with the same id while adding new Employee. But newly created Employee has new id instead, this brings some confusion
 
 
+
+### Case 4:
+#### Steps to reproduce:
+1. Do Precondition
+2. Go to postmans collection "Update Employee"
+3. In body add another id (firstName aso)
+4. Press "Try/Send"
+6. Go back to app
+7. Look if new Employee is created
+
+
+#### Expected result: 
+Warning will appear that id (firstName aso) has been taken already
+
+#### Actual result:
+Now is possible to send request with the same id (firstName aso) while adding new Employee
+
+<img width="1436" alt="Screenshot 2024-06-16 at 14 29 06" src="https://github.com/ioannrio/str/assets/15255256/98924a5e-7694-4ed2-8829-04aa88832c47">
+<img width="1436" alt="Screenshot 2024-06-16 at 14 26 36" src="https://github.com/ioannrio/str/assets/15255256/09ae81d5-a07f-48b1-be8a-66d072ae39e7">
+
