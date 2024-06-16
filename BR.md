@@ -1,4 +1,4 @@
-##Bug Report test challenge
+## Bug Report test challenge
 Type: Bug
 Severity: High
 Priority: High
