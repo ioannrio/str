@@ -13,7 +13,8 @@ Note: All cases begins as from the start, not related one with other
 4. Press "Log In" button
 
 
-Case 1: 
+### Case 1:
+
 Steps to reproduce:
 1. Do Precondition
 2. Press "Add Employee"
