@@ -60,7 +60,7 @@ Warning should be appeared
 #### Actual result:
 No warning appears and employee can't be added. In log only info with status code 401
 
-Note: Same with edit or delete employee
+#### Note: Same with edit or delete employee
 
 
 
@@ -97,7 +97,7 @@ Dependents will be 0.7 or warning appears that it's not possible
 #### Actual result:
 Dependents if is updated to 0.7 is viewed as 0. In network as well
 
-Note: If it is not allowed, theres no info provided. And Warning needs to be added
+#### Note: If it is not allowed, theres no info provided. And Warning needs to be added
 
 
 
@@ -193,5 +193,5 @@ No warning appears and employee can't be added. In network only info with status
 
 
 
-NOTE: Not obvious from requirements how the "Benefits Cost" anf "Net Pay" are calculated, is needed more info
+#### NOTE: Not obvious from requirements how the "Benefits Cost" anf "Net Pay" are calculated, is needed more info
 
