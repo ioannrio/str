@@ -13,8 +13,7 @@
 
 
 ### Case 1:
-
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Press "Add Employee"
 3. Into "First Name:" input type "John"
@@ -32,7 +31,7 @@ No warning appears. Employee can not be added if Dependents are higher then INT 
 
 
 ### Case 2: 
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
 3. Refresh page
@@ -46,7 +45,7 @@ No user data is available and no "Log out" option is available
 
 
 ### Case 3:
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
 3. Press "Add Employee"
@@ -66,7 +65,7 @@ Note: Same with edit or delete employee
 
 
 ### Case 4:
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Set screen view to mobile one
 
@@ -79,7 +78,7 @@ For phone and pad is not friendly design
 
 
 ### Case 5:
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
 3. Press "Add Employee"
@@ -104,7 +103,7 @@ Note: If it is not allowed, theres no info provided. And Warning needs to be add
 
 
 ### Case 6:
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
 3. Press "Add Employee"
@@ -123,7 +122,7 @@ No warning appears and employee can't be added. In network only info with status
 
 
 ### Case 7: 
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
 3. Refresh page
@@ -139,7 +138,7 @@ No user data is available and no "Log out" option is available, new tab didn't c
 
 
 ### Case 8:
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Wait for a while until expiration login time ends cuz of inactivity
 3. Press "Add Employee"
@@ -158,7 +157,7 @@ No warning appears and employee can't be added. In network only info with status
 
 
 ### Case 9:
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Press "Add Employee"
 3. Press "Add" button
@@ -173,7 +172,7 @@ No warning appears and employee can't be added. In network only info with status
 
 
 ### Case 10:
-Steps to reproduce:
+#### Steps to reproduce:
 1. Do Precondition
 2. Press "Add Employee"
 3. Into "First Name:" input type "John"
