@@ -1,11 +1,12 @@
-## Bug Report test challenge
+# Bug Report test challenge
 Type: Bug
 Severity: High
 Priority: High
+
 Status: To Do
 Note: All cases begins as from the start, not related one with other
 
-# Precondition:
+## Precondition:
 1. Go to URL: https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/Login
 2. Into Username input type "TestUser389"
 3. Into Password input type "^9!jT@y#)SOP"
